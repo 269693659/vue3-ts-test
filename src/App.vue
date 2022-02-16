@@ -2,11 +2,14 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
 import baseVue from './components/base.vue';
+import homeVue from './home.vue';
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <baseVue/>
+  <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+  <!-- <baseVue/> -->
+  <!-- <homeVue/> -->
+  <router-view></router-view>
 </template>
 
 <style>
